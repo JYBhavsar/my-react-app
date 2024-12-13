@@ -1,0 +1,81 @@
+
+/* Start Hero Area css
+============================================================================================ */
+.hero {
+  background: var(--gradient-bg);
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.content .highlight {
+  color: var(--accent-color);
+}
+
+.content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.ctaButton {
+  padding: 15px 30px;
+  background-color: var(--accent-color);
+  border: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 25px;
+}
+/* End Hero Area css
+============================================================================================ */
+
+/* Start About Us Area css
+============================================================================================ */
+.about_area {
+  position: relative;
+}
+
+.about_area .main_title {
+  margin-bottom: 0px;
+}
+
+.about_area .main_title p {
+  margin-bottom: 20px;
+}
+
+.about_area .primary_btn {
+  margin-top: 20px;
+}
+
+.about_area .about_img {
+  position: relative;
+  right: 250px;
+}
+
+@media (max-width: 1480px) {
+  .about_area .about_img {
+    right: 0;
+  }
+
+  .about_area .about_img img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .about_area .about_img {
+    display: none;
+  }
+}
+
+/* End About Us Area css
+============================================================================================ */

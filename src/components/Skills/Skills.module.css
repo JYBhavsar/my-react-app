@@ -1,0 +1,32 @@
+.skills {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: var(--bg-color);
+}
+
+.skillContainer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.skill {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.skill span {
+  font-weight: bold;
+}
+
+.bar {
+  background-color: var(--secondary-color);
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.level {
+  background-color: var(--primary-color);
+  height: 100%;
+  transition: width 0.8s ease;
+}
