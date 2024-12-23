@@ -26,9 +26,9 @@ const Navbar = () => {
 
     return (
         // className='header_area'
-        <header className={`header_area navbar ${isScrolled ? 'navbar_fixed' : ''}`}> 
+        <header className={`header_area ${isScrolled ? 'navbar_fixed' : ''}`}> 
             <div className='main_menu'>
-                <nav className="navbar navbar-expand-lg navbar-light header_area">
+                <nav className="navbar navbar-expand-lg navbar-light">
                     <div className="container">
                         <a className="navbar-brand logo_h" href="index.html">
                             <img src={logo} alt="Logo" />
