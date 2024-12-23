@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import './Navbar.css';
+import './Header.css';
 import logo from '../../assets/img/logo.png';
 
-const Navbar = () => {
+const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -76,4 +76,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default Header;

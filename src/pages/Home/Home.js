@@ -3,6 +3,7 @@ import "./Home.css";
 import "../../assets/style/home.scss";
 import homeImg from '../../assets/banner/home-right.png';
 import aboutusImg from '../../assets/img/about-us.png'
+
 const Home = () => (
 	<>
 		<section className="home_banner_area">
@@ -383,6 +384,9 @@ const Home = () => (
             </div>
         </section>
 	{/* <!--================End Portfolio Area =================--> */}
+
+	
+
 
 	</>
 	
