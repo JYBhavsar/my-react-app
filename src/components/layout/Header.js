@@ -31,7 +31,7 @@ const Header = () => {
                 <nav className="navbar navbar-expand-lg navbar-light">
                     <div className="container">
                         <a className="navbar-brand logo_h" href="index.html">
-                            <img src={logo} alt="Logo" />
+                            <img src={logo} alt="Logo" height='77'/>
                         </a>
                         <button
                             className="navbar-toggler"
