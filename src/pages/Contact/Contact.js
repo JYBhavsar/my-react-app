@@ -3,6 +3,8 @@ import { Link } from "react-router";
 import "./Contact.css";
 import "./Contact.scss";
 import { RiHomeSmileLine, RiPhoneLine, RiMailLine  } from "react-icons/ri";
+import GoogleMapComponent from '../../components/GoogleMap/GoogleMap';
+
 
 const Contact = () => {
   //const [formData, setFormData] = useState({ name: "", email: "", message: "" });
@@ -56,17 +58,17 @@ const Contact = () => {
               <div className="contact_info">
                 <div className="info_item">
                   <i className=""><RiHomeSmileLine style={{ color: ' #4458dc' }}/></i>
-                  <h6>California, United States</h6>
-                  <p>Santa monica bullevard</p>
+                  <h6>Gujarat, India</h6>
+                  <p>Ahmedabad</p>
                 </div>
                 <div className="info_item">
                   <i><RiPhoneLine style={{ color: ' #4458dc' }}/></i>
-                  <h6><a href="/">00 (440) 9865 562</a></h6>
-                  <p>Mon to Fri 9am to 6 pm</p>
+                  <h6><a href="/">(+91) 81285-01096</a></h6>
+                  <p>WhatsApp On This</p>
                 </div>
                 <div className="info_item">
                   <i><RiMailLine  style={{ color: ' #4458dc' }}/></i>
-                  <h6><a href="/">support@colorlib.com</a></h6>
+                  <h6><a href="/">bhavsarjay0101@outlook.com</a></h6>
                   <p>Send us your query anytime!</p>
                 </div>
               </div>
@@ -97,13 +99,8 @@ const Contact = () => {
               </form>
             </div>
           </div>
-          <div id="mapBox" className="mapBox"
-            data-lat="40.701083"
-            data-lon="-74.1522848"
-            data-zoom="13"
-            data-info="PO Box CT16122 Collins Street West, Victoria 8007, Australia."
-            data-mlat="40.701083"
-            data-mlon="-74.1522848">
+          <div id="mapBox" className="mapBox">
+            <GoogleMapComponent />
           </div>
         </div>
       </section>

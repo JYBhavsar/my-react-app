@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import Home from './pages/Home/Home';
@@ -8,7 +9,7 @@ import Projects from './pages/Projects/Projects';
 import Contact from './pages/Contact/Contact';
 
 import './assets/style/banner.scss';
-//import './assets/style/elements.scss';
+import './assets/style/elements.scss';
 import './assets/style/predefine.scss';
 import './assets/style/responsive.scss';
 
