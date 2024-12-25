@@ -1,6 +1,7 @@
 import React from "react";
 import "../../assets/style/footer.scss";
 import { RiLinkedinFill, RiFacebookFill, RiTwitterFill, RiGithubFill} from "react-icons/ri";
+import { Link } from "react-router";
 
 
 const Footer = () => {
@@ -11,9 +12,9 @@ const Footer = () => {
                     <div className="col-lg-12">
                         <div className="footer_top flex-column">
                             <div className="footer_logo">
-                                <a href="/">
-                                    <img src={require('../../assets/img/logo.png')} alt="" />
-                                </a>
+                                <Link to="/">
+                                    <img src={require('../../assets/img/logo.png')} alt="Logo" />
+                                </Link>
                                 <h4>Follow Me</h4>
                             </div>
                             <div className="footer_social">
